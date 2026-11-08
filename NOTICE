@@ -1,0 +1,14 @@
+DreamShell
+
+gl/LensModel.kt follows the lens model of the Google Cardboard SDK
+(https://github.com/googlevr/cardboard: sdk/lens_distortion.cc,
+sdk/polynomial_radial_distortion.cc), Apache License 2.0, as ported to C# by
+CardboardXR (https://github.com/brenpoly/CardboardXR), Apache License 2.0.
+The alignment line follows the Cardboard SDK's alignment marker.
+
+The Daydream controller packet layout follows daydream-controller.js
+(https://github.com/mrdoob/daydream-controller.js). The pairing requirement and the
+default pointing axis follow daydream2hid (https://github.com/ryukoposting/daydream2hid).
+
+Daydream View distortion coefficients as given in
+https://github.com/googlevr/cardboard/issues/17.
